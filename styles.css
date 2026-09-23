@@ -29,18 +29,77 @@ header{
   background-color: white;
 }
 main{
-  height: 90vh;
+  height: 120vh;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .mainfalso{
   width: 50%;
-  height: 90vh;
+  height:120vh;
   background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 aside{
   width: 20%;
-  height: 90vh;
+  height: 120vh;
   background-color: rgb(189, 189, 189);
 }
+.cuadradorojo{
+  background-color: rgb(255, 84, 84);
+  width: 14rem;
+  height: 16vh;
+}
+.lineagris{
+  width: 30rem;
+  height: 2vh;
+background-color: rgb(165, 165, 165);}
+.lineaoscura{
+  width: 30rem;
+  height: 2vh;
+  background-color: rgb(75, 75, 75);
+}
+.Noticia1{
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem;
+}
+.lineagrischiquita{
+  width: 15rem;
+  height: 2vh;
+  background-color: rgb(165, 165, 165);}
+
+  .cuadradomagenta{
+    height: 14vh;
+    width: 8rem;
+    background-color: rgb(116, 170, 252);
+  }
+  .Noticia2{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+  }
+  .noticias{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+  }
+
+  .divisionparalaslineas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .lineanegrachica{
+    width: 10rem;
+    height: 2vh;
+    background-color: rgb(75, 75, 75);
+  }
+  .lineagrismuychica{
+    width: 5rem;
+    height: 2vh;
+    background-color: rgb(165, 165, 165);
+  }
